@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'chapter11';
+  onGetTermSearch(event:string){
+    console.log(event);
+  }
 }
